@@ -1,0 +1,33 @@
+body{
+  background-color: rgb(246, 246, 238);
+  margin: 0;
+  padding: 0;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#root{
+  height: 100vh;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+.messages{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+}
+.msg{
+  width: 80vh;
+  font-family: sans-serif;
+  font-size: 16px;
+  display: flex;
+  padding: 5px;
+  border: 1px  burlywood solid;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  justify-content: space-between;
+}
+.content{
+  margin: 5px;
+}
