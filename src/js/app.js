@@ -1,6 +1,6 @@
 import { fromEvent,interval } from "rxjs";
 import { ajax } from 'rxjs/ajax';
-const url = 'http://localhost:3000/messages/unread'
+const url = 'https://ajs-rx-js-backend.vercel.app/messages/unread'
 const message$ = interval(3000)
 message$.subscribe(()=>{
 const messages = ajax.getJSON(url);
